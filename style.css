@@ -1,0 +1,49 @@
+html {
+  font-size: 100%;
+}
+
+body {
+  text-align: center;
+  font-family: "manrope";
+  color: hsl(225, 20%, 60%);
+  font-size: 15px;
+}
+
+.dark {
+  color: hsl(227, 35%, 25%);
+}
+
+header {
+  background-image: url("images/pattern-circles.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+#CalculatorCard {
+  display: flex;
+  background-color: white;
+  display: block;
+  height: 350px;
+  width: 500px;
+  margin: auto;
+  border-radius: 5px;
+  box-shadow: 15px 15px 15px rgba(121, 121, 121, 0.2),
+    -15px 15px 15px rgba(121, 121, 121, 0.2);
+}
+
+#background-img {
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: -1;
+}
+
+#pageviews {
+  font-weight: 600;
+}
